@@ -1,0 +1,48 @@
+body{
+margin: 0px;
+}
+
+/* ------- */
+/* En Tête */
+/* ------- */
+
+header{
+    background-color: #222222;
+    height: 75px;
+}
+
+.EnTete{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Logo{
+    width: 50px;
+    padding: 12px;
+    margin-left: 100px;
+    display: flex;
+}
+
+.BoxMilieu{
+    display: flex;
+    align-items: center;
+}
+
+.blocks {
+    background: #fff;
+    width: 7px;
+    height: 7px;
+    float: left;
+    margin: 36px 18px;
+}
+
+.TexteEnTete{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.Reseau{
+    display: flex;
+    gap: 20px;
+}
