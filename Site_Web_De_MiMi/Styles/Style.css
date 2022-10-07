@@ -46,3 +46,11 @@ header{
     display: flex;
     gap: 20px;
 }
+
+span{
+    color: #222222
+}
+
+.espace{
+    margin-right: 10px;
+}
