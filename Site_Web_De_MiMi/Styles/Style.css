@@ -1,5 +1,6 @@
 body{
 margin: 0px;
+background-color: black;
 }
 
 /* ------- */
@@ -8,7 +9,7 @@ margin: 0px;
 
 header{
     background-color: #222222;
-    height: 75px;
+    height: 85px;
 }
 
 .EnTete{
@@ -26,6 +27,7 @@ header{
 .BoxMilieu{
     display: flex;
     align-items: center;
+    margin-right: 170px;
 }
 
 .blocks {
@@ -44,13 +46,12 @@ header{
 
 .Reseau{
     display: flex;
-    gap: 20px;
 }
 
-.espace{
-    margin-right: 10px;
+.svgentete{
+    padding: 8px;
 }
 
-svg{
-    padding: 5px;
-}
+/* ----------- */
+/* Fin En Tête */
+/* ----------- */
