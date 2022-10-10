@@ -57,6 +57,22 @@ header{
 /* Fin En Tête */
 /* ----------- */
 
+.grosconteneur{
+display: flex;
+align-content: space-between;
+}
+
+.conteneurtexte{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    padding: 250px;
+}
+
+.conteneurimage{
+    display: flex;
+}
+
 .boxtitre{
     display: flex;
     gap: 10px;
@@ -72,4 +88,28 @@ header{
 .textelasouris{
     font-family: 'Roboto', sans-serif;
     font-size: 55px;
+}
+
+.textetapis{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+}
+
+.boutonacheter{
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    border: solid;
+    border-color: white;
+    color: black;
+    font-weight: bold;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 60px;
+    padding: 15px;
+}
+
+.imagemimi{
+    width: 350px;
+    height: 350px;
+    margin-top: 185px;
 }
