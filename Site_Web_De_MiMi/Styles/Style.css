@@ -1,6 +1,7 @@
 body{
 margin: 0px;
 background-color: black;
+color: #fff;
 }
 
 /* ------- */
@@ -55,3 +56,20 @@ header{
 /* ----------- */
 /* Fin En Tête */
 /* ----------- */
+
+.boxtitre{
+    display: flex;
+    gap: 10px;
+}
+
+.textemimi{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 55px;
+
+}
+
+.textelasouris{
+    font-family: 'Roboto', sans-serif;
+    font-size: 55px;
+}
