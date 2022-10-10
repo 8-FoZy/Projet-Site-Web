@@ -4,6 +4,10 @@ background-color: black;
 color: #fff;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* ------- */
 /* En Tête */
 /* ------- */
@@ -56,6 +60,10 @@ header{
 /* ----------- */
 /* Fin En Tête */
 /* ----------- */
+
+/* -------------- */
+/* Milieu de Page */
+/* -------------- */
 
 .grosconteneur{
 display: flex;
@@ -113,3 +121,7 @@ align-content: space-between;
     height: 350px;
     margin-top: 185px;
 }
+
+/* ------------------ */
+/* Fin Milieu de Page */
+/* ------------------ */
